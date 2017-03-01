@@ -6,7 +6,6 @@ use yii;
 
 class getAllRoutes {
 
-
     public function __construct() {
 
 	$paths = [];
@@ -23,7 +22,6 @@ class getAllRoutes {
 	array_push($paths, '../controllers');
 
 	foreach ($paths as $path) {
-
 	    $controllerlist = [];
 	    if ($handle = scandir($path)) {
 		foreach ($handle as $file) {
