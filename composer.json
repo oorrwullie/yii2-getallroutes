@@ -1,0 +1,21 @@
+{
+    "name": "oorrwullie/yii2-getallroutes",
+    "description": "Returns an array of all possible unique route controllers and actions for the application.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+	{
+	    "name": "oorrwullie",
+	    "email": "payneks@gmail.com"
+	}
+    ],
+    "require": {
+	"yiisoft/yii2": "*"
+    },
+    "autoload": {
+	"psr-4": {
+	    "oorrwullie\\components\\": ""
+	}
+    }
+}
